@@ -1,0 +1,31 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #b2afaf;
+}
+
+.header_inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_item {
+	& + & {
+		margin-left: 40px;
+	}
+	font-size: 22px;
+	background-color: #a0f456;
+	padding: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+}
